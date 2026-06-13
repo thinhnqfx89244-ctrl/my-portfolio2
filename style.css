@@ -1,0 +1,437 @@
+/* SETUP CHUNG */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.banner img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+}
+/* .container {
+  display: grid;
+  grid-template: 1fr 1fr;
+} */
+
+/* HINH BANNER DAU TRANG */
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  display: block;
+}
+
+.textonimage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 25px;
+}
+
+/* NAVBAR */
+.topnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.topnav > div {
+  padding: 20px 30px;
+  border-left: 1px solid #eee;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.duan {
+  border-right: 1px solid #eee;
+}
+
+.hoten {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  padding: 10px 60px;
+}
+
+.hoten h2 {
+  font-size: 20px;
+}
+
+.hoten p {
+  font-size: 12px;
+  color: gray;
+}
+
+.topnav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 12px;
+}
+
+.topnav i {
+  color: #199cdb;
+}
+
+/* THONGTINCANHAN */
+.thongtincanhan {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0px;
+}
+
+.muctieunghenghiep,
+.thongtincanhancuthe {
+  padding: 60px 80px;
+}
+
+.muctieunghenghiep {
+  background-color: #f5f5f5;
+}
+
+.thongtincanhancuthe {
+  background-color: #eee;
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.muctieunghenghiep p,
+.listthongtin li {
+  line-height: 1.8;
+  color: #666;
+}
+
+.listthongtin {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.thongtincanhancuthe i {
+  color: #199cdb;
+}
+
+/* THÔNG TIN NGHỀ NGHIỆP */
+.thongtinnghenghiep {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 30px;
+
+  margin: 50px;
+}
+
+.box {
+  border: 1px solid #ddd;
+
+  padding: 30px;
+}
+
+/*THONG TIN NGHE NGHIP > TITLE */
+.title {
+  display: grid;
+  grid-template-columns: 75% 25%;
+
+  align-items: center;
+
+  margin-bottom: 30px;
+}
+
+.title h3 {
+  font-size: 28px;
+}
+
+.title i {
+  font-size: 40px;
+
+  color: gray;
+
+  justify-self: end;
+}
+
+/*THONG TIN NGHE NGHIP > NOI DUNG */
+.noidung h4,
+.ngonngu h4 {
+  margin-bottom: 10px;
+}
+
+.thoigian {
+  margin-bottom: 10px;
+
+  color: gray;
+
+  font-style: italic;
+}
+
+.thoigian span {
+  background-color: #199cdb;
+
+  color: white;
+
+  padding: 2px 10px;
+
+  border-radius: 20px;
+}
+
+.noidung ul {
+  padding-left: 20px;
+
+  line-height: 1.8;
+}
+
+/* 
+THONG TIN NGHE NGHIEP > SO THICH */
+
+.sothich {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  text-align: center;
+
+  gap: 10px;
+}
+
+.sothich i {
+  width: 50px;
+  height: 50px;
+
+  border: 1px solid #199cdb;
+  border-radius: 50%;
+
+  color: #199cdb;
+
+  line-height: 50px;
+
+  margin-bottom: 10px;
+}
+
+/* /LEVEL/ */
+.level {
+  display: flex;
+
+  gap: 10px;
+
+  margin: 10px 0 20px;
+}
+
+.level span {
+  display: inline-block;
+
+  width: 45px;
+  height: 4px;
+
+  background-color: #ddd;
+}
+
+.level .active {
+  background-color: #199cdb;
+}
+
+/* CHỨNG CHỈ GIẢI THƯỞNG */
+.chungchi-giaithuong {
+  background-color: #f5f5f5;
+
+  padding: 50px;
+}
+
+.chungchi-giaithuong h2 {
+  margin-bottom: 50px;
+}
+
+.chungchi-container {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 40px;
+}
+
+.chungchi-item {
+  display: flex;
+
+  gap: 20px;
+
+  padding-bottom: 30px;
+
+  border-bottom: 1px solid #d6c08d;
+}
+
+.chungchi-item img {
+  width: 200px;
+}
+
+/* MOTACHUNGCHI */
+.motachungchi h4 {
+  margin-bottom: 15px;
+
+  font-size: 16px;
+}
+
+.motachungchi p {
+  line-height: 1.8;
+
+  color: gray;
+}
+
+/* .chungchi-items: last-child {
+  border-bottom: none;
+} */
+
+/* DỰ ÁN */
+
+#duan {
+  padding: 50px 0;
+}
+
+.containerduan {
+  width: 100%;
+  padding: 0 50px;
+}
+
+#duan h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.danhsachduan {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.duan-item {
+  border: 1px solid #ddd;
+}
+
+.duan-item img {
+  width: 100%;
+  display: block;
+}
+
+.duan-title {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.duan-title h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.thongtinduan {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+  color: #666;
+}
+
+.nam {
+  background-color: #199cdb;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 12px;
+  vertical-align: top;
+  border-bottom: 1px solid #ddd;
+}
+
+td:first-child {
+  width: 25%;
+  font-weight: bold;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #f5f5f5;
+
+  padding: 40px;
+
+  text-align: center;
+}
+
+.footer-item {
+  display: inline-block;
+
+  margin: 0 20px;
+}
+
+.footer-item i {
+  color: #199cdb;
+
+  font-size: 28px;
+
+  margin-right: 10px;
+}
+
+.footer-item a {
+  text-decoration: none;
+
+  color: gray;
+
+  font-size: 18px;
+}
+
+.thongtincanhan {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hide {
+  display: none;
+}
+
+#error-message {
+  color: red;
+  margin: 10px 0;
+}
+
+#email {
+  width: 100%;
+  padding: 8px;
+}
+
+#submit-btn {
+  margin-top: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.view-btn {
+  display: none;
+}
+
+.box:hover .view-btn {
+  display: inline-block;
+}

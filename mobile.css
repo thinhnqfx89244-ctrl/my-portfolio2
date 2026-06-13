@@ -1,0 +1,71 @@
+@media (max-width: 767px) {
+  .hoten {
+    display: none;
+  }
+
+  .topnav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .topnav > div {
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .thongtincanhan {
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .thongtincanhan {
+    grid-template-columns: 1fr;
+  }
+
+  .muctieunghenghiep,
+  .thongtincanhancuthe {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .thongtinnghenghiep {
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .chungchi-container {
+    grid-template-columns: 1fr;
+  }
+
+  .chungchi-item {
+    flex-direction: column;
+  }
+
+  .chungchi-item img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .danhsachduan {
+    grid-template-columns: 1fr;
+  }
+
+  .thongtinduan {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .containerduan {
+    padding: 0 20px;
+  }
+}

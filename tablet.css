@@ -1,0 +1,40 @@
+@media (max-width: 991px) {
+  .hoten {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .muctieunghenghiep,
+  .thongtincanhancuthe {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .muctieunghenghiep,
+  .thongtincanhancuthe {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .thongtinnghenghiep {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 991px) {
+  .chungchi-item {
+    flex-direction: column;
+  }
+
+  .chungchi-item img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .danhsachduan {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
